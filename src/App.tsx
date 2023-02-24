@@ -1,11 +1,13 @@
-
-
+ import Result from './components/Result'
+ import Summary from './components/Summary'
+ 
 function App() {
   
 
   return (
     <div className="App">
-      lol
+    <Result/>
+    <Summary/>
     </div>
   )
 }
