@@ -1,11 +1,11 @@
-import React from 'react'
-import data from '../assets/data.json'
+import {  useState, useContext, useEffect } from 'react'
+import { AppContext } from '../App'
 const Items = () => {
-
+  const { newData, setNewData} = useContext(AppContext)
   
   return (
     <div className='items'>
-      {data[1].map((item,index) =>{
+      {newData.map((item,index) =>{
         return(
           <div className="wrapper" key={index}>
           <img src={item.icon}></img>

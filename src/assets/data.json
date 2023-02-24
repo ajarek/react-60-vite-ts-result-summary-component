@@ -39,7 +39,51 @@
   },
   {
     "category": "Visual",
-    "score": 51,
+    "score": 35,
+    "icon": "/icon-visual.svg"
+  }
+],
+[
+  {
+    "category": "Reaction",
+    "score":89,
+    "icon": "/icon-reaction.svg"
+  },
+  {
+    "category": "Memory",
+    "score": 99,
+    "icon": "/icon-memory.svg"
+  },
+  {
+    "category": "Verbal",
+    "score": 95,
+    "icon": "/icon-verbal.svg"
+  },
+  {
+    "category": "Visual",
+    "score": 97,
+    "icon": "/icon-visual.svg"
+  }
+],
+[
+  {
+    "category": "Reaction",
+    "score":19,
+    "icon": "/icon-reaction.svg"
+  },
+  {
+    "category": "Memory",
+    "score": 39,
+    "icon": "/icon-memory.svg"
+  },
+  {
+    "category": "Verbal",
+    "score": 25,
+    "icon": "/icon-verbal.svg"
+  },
+  {
+    "category": "Visual",
+    "score": 17,
     "icon": "/icon-visual.svg"
   }
 ]

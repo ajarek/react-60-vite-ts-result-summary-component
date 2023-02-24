@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react'
-import data from '../assets/data.json'
+import {  useState, useContext, useEffect } from 'react'
+import { AppContext } from '../App'
 
 
 const Result = () => {
-  const [newData,setNewData]=useState(data[1])
  
+  const { newData, setNewData} = useContext(AppContext)
  
 
 
-  const procent=(newData.reduce((a,b)=>a+b.score,0)/4).toFixed(0)
+  const procent=(+newData.reduce((a,b)=>a+b.score,0)/4).toFixed(0)
  
   
   return (
